@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-brand img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .content h1 {
+    font-size: 3rem;
+  }
+
+  .video {
+    position: relative;
+  }
+
+  .bubble1,
+  .bubble2 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 241);
+  }
+
+  .bubble1 {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%);
+  }
+
+  .bubble2 {
+    width: 150px;
+    height: 150px;
+    bottom: -50px;
+    right: -50px;
+  }
+
+  .grid-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-body h1 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+  }
+
+  .footer-column h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-column p {
+    margin-top: 1rem;
+  }
